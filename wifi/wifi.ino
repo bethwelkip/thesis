@@ -6,12 +6,14 @@ void setup()
     // start serial monitor
     Serial.begin(115200);
     Serial.println("Starting up .............");
+    int count = 0;
     // while loop to connect to wifi
     WiFi.begin("Servicenet", "password");
-    while (Wifi.status() != WL_CONNECTED && Timer < 50000)
+    while (Wifi.status() != WL_CONNECTED && count < 1000)
     {
         delay(1000);
         Serial.print("... ");
+        count++;
     }
 
     if (WiFi.status == WL_CONNECTED)

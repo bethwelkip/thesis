@@ -1,0 +1,11 @@
+{
+  "timezone" : "America/New_York",
+  "device" : {
+    "name" : "MAE D1 mini 13",
+    "owner" : "kipyegon@princeton.edu",
+    "organizationPath" : "/Blynk/Clients/My organization - 8144WZ"
+  },
+  "exported_by" : "http api",
+  "exported_at" : "2022-04-04T20:31:19.927890874-04:00",
+  "timezone_offset" : "-04:00"
+}
